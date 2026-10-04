@@ -2,7 +2,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
 import connectDB from "./config/db.js";
-import cartRoutes from "./routes/Cart.js";
+import cartRoutes from "./routes/cart.js";
 import authRoutes from "./routes/authRoutes.js";
 import productRoutes from "./routes/productsRoutes.js";
 import addressRoutes from "./routes/address.js";
